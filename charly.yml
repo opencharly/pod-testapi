@@ -1,7 +1,7 @@
 version: 2026.232.0520
 testapi:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             A FastAPI test service answering HTTP on port 9090 under supervisord
             Installs fastapi + uvicorn into a pixi environment and copies app.py
@@ -10,7 +10,7 @@ testapi:
             so the running container answers HTTP 200 on / ({"status":"ok"}) and
             /health ({"healthy":true}). Every claim below is independently checked.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
+            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
         port:
             - 9090
         route:
