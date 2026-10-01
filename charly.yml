@@ -8,7 +8,7 @@ testapi:
             so the running container answers HTTP 200 on / ({"status":"ok"}) and
             /health ({"healthy":true}). Every claim below is independently checked.
         require:
-            - '@github.com/opencharly/layer-supervisord:v2026.240.0121'
+            - '@github.com/opencharly/layer-supervisord:v2026.271.1817'
         port:
             - 9090
         route:
