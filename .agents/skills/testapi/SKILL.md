@@ -28,9 +28,6 @@ fedora-test:
     - testapi
 ```
 
-## Used In Boxes
-
-
 ## Related Candies
 
 - `/charly-infrastructure:supervisord` -- process manager dependency
